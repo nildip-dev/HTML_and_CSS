@@ -22,6 +22,8 @@
         <img> vs <picture>
         srcset attribute
 
+-   table element
+
 -   Content Sectioning OR Symantic HTML elements
 
         1. <div> <span>

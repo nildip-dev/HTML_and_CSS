@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+
+		<title>Table Element</title>
+
+		<!-- basic styling of table -->
+		<style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			td,
+			th {
+				border: 1px solid black;
+				padding: 10px;
+				text-align: center;
+			}
+			tr:nth-child(even) {
+				background-color: #b9b9b9;
+			}
+			thead {
+				background-color: #d6ec88;
+			}
+			tfoot {
+				background-color: #cdf0c9;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Table</h1>
+
+		<!-- Shotcut table>tr>th*3 -->
+		<table>
+			<tr>
+				<th>Heading 1</th>
+				<th>Heading 2</th>
+				<th>Heading 3</th>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+		</table>
+
+		<h2>Table Example 2: span</h2>
+		<table>
+			<tr>
+				<th>Heading 1</th>
+				<td rowspan="2">Data 1</td>
+				<td>Data 2</td>
+				<td>Data 3</td>
+			</tr>
+			<tr>
+				<th>Heading 2</th>
+				<td>Data 1</td>
+				<td>Data 2</td>
+				<!-- <td>Data 3</td> -->
+			</tr>
+			<tr>
+				<th colspan="2">Heading 3</th>
+				<td>Data 1</td>
+				<td>Data 2</td>
+			</tr>
+		</table>
+
+		<h2>Table Example 3: symantic table</h2>
+		<table>
+			<caption>
+				Caption: Total iteam sold today.
+			</caption>
+			<thead>
+				<tr>
+					<th>Iteam</th>
+					<th>Expense</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Donut</th>
+					<td>200</td>
+				</tr>
+				<tr>
+					<th>Pizza</th>
+					<td>500</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>Total</th>
+					<td>700</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
