@@ -1,4 +1,4 @@
-small<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -10,18 +10,21 @@ small<!DOCTYPE html>
 	<body>
 		<h1>Formatting and Global Attribute</h1>
 
-		<!-- List -->
+		<!-- Un-irdered List -->
 		<ul>
-			<li>b -> strong</li>
-			<li>em -> i</li>
-			<li>..</li>
+			<li>strong,em,small</li>
+			<li>sub,sup,& gt ;</li>
+			<li>del, mark, q, blockquote</li>
 			<li>..</li>
 			<li>..</li>
 		</ul>
 		<!-- List -->
 		<ol>
-			<li>one</li>
-			<li>Two</li>
+			<li type="i">one</li>
+			<li type="a">Two</li>
+			<ul>
+				<li>ul list in ol list</li>
+			</ul>
 			<li>..</li>
 			<li>..</li>
 			<li>..</li>
@@ -46,6 +49,7 @@ small<!DOCTYPE html>
 		<p>H <sub>2</sub> O</p>
 		<p>H <sup>2</sup> O</p>
 
+		<hr />
 		<!-- del to show deleted text -->
 		<p>
 			There is <del>nothing</del> no code good or bad.
@@ -59,6 +63,27 @@ small<!DOCTYPE html>
 			>
 			text for ref only not like strong
 		</p>
+
+		<!-- blockquote -->
+		<blockquote cite="www.google.com">
+			This is Google Quote
+		</blockquote>
+
+		<!-- abbreviation -->
+		<abbr title="Hyper Text Markup Language">HTML</abbr>
+
+		<!-- cite used to refere title of cited work e.g book name -->
+		<p>
+			This text is taken from <cite>XYZ</cite> book.
+		</p>
+
+		<!-- ADDRESS tag -->
+		<address>
+			<a href="mailto:xyz@test.com">Email to:</a>
+		</address>
+
+		<!-- Bi-Directional text -->
+		<bdo dir="rtl">A123</bdo>
 
 		<!-- global attribute style -->
 		<!-- style -->
