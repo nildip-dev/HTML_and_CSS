@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Class and ID</title>
+
+		<style>
+			.red {
+				background-color: #ce621b;
+				color: #fff;
+			}
+			#green {
+				background-color: #20b726;
+			}
+			table{
+				width: 100%;
+				text-align: center;
+				border-collapse: collapse;
+			}
+			th,tr{
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- class and id used to select elements and not only for CSS -->
+		<p class="red">
+			Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. A, at?
+		</p>
+
+		<!--! HTML is forgiving do id can be used multiple time -->
+		<!-- just a convention to use unique id so wrong and should not be used-->
+		<p id="green">
+			Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. Autem, doloremque.
+		</p>
+		<h1 class="red">Test 1</h1>
+		<h3 id="green">Test 3</h3>
+
+		<h2>iframe</h2>
+		<!-- due to security issue used less and performance issue-->
+		<!-- currently mostly used for video player or may be map -->
+
+		<table>
+			<caption>
+				iFrame - youtube video example.
+			</caption>
+
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Video</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				
+				<tr>
+					<!-- iframe use from yourtube -->
+					<!-- check the URL difference -->
+					<!-- allow -> are all HTML apis -->
+					<th>The problems with viewport units</th>
+					<td><iframe width="250" height="150" src="https://www.youtube.com/embed/veEqYQlfNx8" title="The problems with viewport units" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+				</tr>
+			</tbody>
+
+			<tfoot>
+				<tr>
+					<th>Total</th>
+					<td>700</td>
+				</tr>
+			</tf
+	</body>
+</html>
