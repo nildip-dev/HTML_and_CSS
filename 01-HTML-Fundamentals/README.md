@@ -23,7 +23,9 @@
         srcset attribute
 
 -   table element
-
+-   list, inline and block elements
+-   class, id and iframe
+-   head tag
 -   Content Sectioning OR Symantic HTML elements
 
         1. <div> <span>
