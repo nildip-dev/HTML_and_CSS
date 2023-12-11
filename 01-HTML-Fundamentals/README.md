@@ -26,7 +26,10 @@
 -   list, inline and block elements
 -   class, id and iframe
 -   head tag
--   Content Sectioning OR Symantic HTML elements
+
+        <meta><title><style><base><script>
+
+-   Content Sectioning OR Semantic HTML elements
 
         1. <div> <span>
         2. <nav> <header> <article> <aside> <footer>
