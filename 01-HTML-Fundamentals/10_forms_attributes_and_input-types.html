@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Forms in HTML</title>
+
+		<style>
+			body {
+				background-color: #414141;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Forms in HTML</h1>
+
+		<!-- get does not encrypt vs post does -->
+		<form
+			name="submit-form"
+			action="#"
+			method="GET"
+			accept-charset="UTF-16"
+			autocomplete="on"
+			enctype="text/plain"
+			target="">
+			<!-- input with lable- text and attributes -->
+			<!-- label is good for screenreader rathen than placeholder -->
+			<label for="fname">First Name</label>
+			<input
+				type="text"
+				placeholder="First Name"
+				name=""
+				id="fname" />
+			<label for="lname">Last Name</label>
+			<input
+				type="text"
+				placeholder="Last Name"
+				name=""
+				id="lname" />
+
+			<!-- form needs a button so data can be submitted -->
+			<button type="submit">Pay</button>
+		</form>
+	</body>
+</html>
