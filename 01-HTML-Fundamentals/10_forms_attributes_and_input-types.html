@@ -12,6 +12,12 @@
 				background-color: #414141;
 				color: #fff;
 			}
+			form {
+				width: 150px;
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+			}
 		</style>
 	</head>
 	<body>
@@ -26,20 +32,73 @@
 			autocomplete="on"
 			enctype="text/plain"
 			target="">
-			<!-- input with lable- text and attributes -->
+			<!--* input with lable- text and attributes -->
+
 			<!-- label is good for screenreader rathen than placeholder -->
+
 			<label for="fname">First Name</label>
 			<input
 				type="text"
 				placeholder="First Name"
 				name=""
-				id="fname" />
+				id="fname"
+				value="X"
+				required />
 			<label for="lname">Last Name</label>
 			<input
 				type="text"
 				placeholder="Last Name"
 				name=""
-				id="lname" />
+				id="lname"
+				required />
+
+			<!--* other type of input -->
+
+			<!-- specific text type with some feature or validation e.g. pass showed dotted and email will have validation -->
+			<label for="pass">Password</label>
+			<input type="password" name="" id="pass" />
+			<label for="email">Email</label>
+			<input type="email" name="" id="email" />
+
+			<!-- selection -->
+			<select name="languages" id="" multiple>
+				<option value="html">HTML</option>
+				<option value="js">JAVASCRIPT</option>
+				<option value="css">CSS</option>
+			</select>
+
+			<!-- color -->
+			<label for="color">Color</label>
+			<input type="color" name="" id="color" />
+
+			<!-- date and time -->
+			<label for="date">Date</label>
+			<input type="date" name="" id="color" />
+
+			<input type="week" name="" id="" />
+
+			<!-- file -->
+			<label for="file">Browse</label>
+			<input
+				type="file"
+				name=""
+				id="email"
+				accept=".png, .jpg,.pdf" />
+
+			<!-- slider -->
+			<input
+				type="range"
+				name=""
+				id=""
+				step="10"
+				min="0"
+				max="10" />
+
+			<!-- hidden -->
+			<input type="hidden" name="" />
+
+			<!-- reset form -->
+			<input type="reset" value="reset" />
 
 			<!-- form needs a button so data can be submitted -->
 			<button type="submit">Pay</button>
