@@ -1,0 +1,75 @@
+/** 01 - BASIC TEXT STYLE */
+
+h1 {
+	color: #6065ed;
+	font-size: 26px;
+	/* use in-built font family */
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+/* more */
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	/* centering compared to parent element */
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	/* line height 1.5 time font-size*/
+	line-height: 1.5;
+}
+
+li {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+/** 02 - SELECTORS */
+
+/* selecting multiple elements at once */
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+	font-family: sans-serif;
+}
+/* descendent selector for child elements*/
+footer p {
+	font-size: 16px;
+}
+
+/* can do but should not do like this */
+/* article header p {
+	font-style: italic;
+} */
+
+/* class and ID */
+#author {
+	font-style: italic;
+	font-size: 10px;
+}
+
+#copyright {
+	font-size: 10px;
+}
+
+.related-author {
+	font-size: 16px;
+	font-weight: bold;
+}
+.related {
+	list-style: none;
+}
