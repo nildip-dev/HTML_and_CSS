@@ -1,0 +1,41 @@
+/** 01 - BASIC TEXT STYLE  */
+
+h1 {
+	color: #6065ed;
+	font-size: 26px;
+	/* use in-built font family */
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+/* more */
+h2 {
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	/* centering compared to parent element */
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	font-family: sans-serif;
+	/* line height 1.5 time font-size*/
+	line-height: 1.5;
+}
+
+li {
+	font-size: 20px;
+	font-family: sans-serif;
+}
