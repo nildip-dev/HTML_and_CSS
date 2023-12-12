@@ -35,3 +35,12 @@
         2. <nav> <header> <article> <aside> <footer>
         3. <address> <main> <section> <figure> <figcaption>
         4. <menu>
+
+-   form and attributes
+
+        <form><input><label><select>
+        <input> types : email, password, date, week, range, submit, reset
+
+-   media and api
+
+        <video><audio>
